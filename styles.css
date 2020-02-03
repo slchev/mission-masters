@@ -2,7 +2,152 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+}
 
+@media only screen and (max-width:400px) {
+  .page {
+    padding-left: -15px;
+
+    background-color:#343434;
+
+    display:flex;
+    flex-wrap:wrap;
+
+  }
+  .container{
+    background-color: #gray;
+    font-family: "comic sans ms";
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    margin-left: -15px;
+    width:300px;
+
+
+  }
+  .grid{
+    background-color: #fff;
+    align-items:center;
+    background-color: gray;
+    display:flex;
+    flex-wrap:wrap;
+    width:300px;
+
+
+  }
+  .link:hover{
+    text-decoration: none;
+    color:#FF6608;
+    border: 2px dotted #FF6608;
+  }
+  .link{
+    color:black;
+    font-weight:bold;
+  }
+  .bg-light{
+    background-color: #b0aead!important;
+  }
+  .footer-container{
+    background-color:#b0aead;
+    clear:both;
+  }
+  .footer{
+    text-align:center;
+    padding:5px;
+    font-weight:none;
+    width:400px;
+  }
+
+  .words{
+
+    font-family: "Times New Roman";
+    font-style:italic;
+    font-weight:bold;
+
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    border-style: groove;
+    color: #white;
+    background-color: white;
+    text-align: center;
+    border: 2px solid #5D6063;
+    display:flex;
+    flex-wrap:wrap;
+
+  }
+  .two{
+
+    font-size:24px;
+    background-color:#ABABAB;
+    display:flex;
+    flex-wrap:wrap;
+    width:380px;
+  }
+  .three{
+
+    font-size:24px;
+
+    display:flex;
+    flex-wrap:wrap;
+    width:380px;
+
+
+    background-color:#ABABAB
+
+  }
+  .button{
+
+    border:1px solid #5B99FF;
+    background-color:#5B99FF;
+    color:gray;
+    padding:3px;
+    color:black;
+  }
+  .button:hover{
+    border:groove;
+  }
+  .four{
+    text-align:center;
+    display:flex;
+    flex-wrap:wrap;
+      background-color:#ABABAB;
+      width:380px;
+  }
+  .tips-grid{
+    display:block;
+    display:flex;
+    flex-wrap:wrap;
+    width:380px;
+  }
+  .col{
+    flex:1;
+
+    text-align: center;
+
+  }
+  .second{
+    width:380px;
+    flex:2;
+  }
+  .row{
+    flex:1;
+    order: reverse;
+    width:200px;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  em{
+    color:white;
+    border:groove;
+  }
+}
+
+@media only screen and (min-width:401 px) and (max-width: 960 px) {
+
+}
+
+@media only screen and (min-width: 961 px) {
 }
 .page {
   background-color:#343434;
@@ -111,4 +256,5 @@
 em{
   color:white;
   border:groove;
+}
 }
